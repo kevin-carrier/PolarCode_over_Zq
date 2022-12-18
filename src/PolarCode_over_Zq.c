@@ -261,7 +261,7 @@ int parse_cmdline(int argc, char *argv[]){
 				printf("\t\"-k\" : dimension of the polar code (unsigned int REQUIRED)\n");
 				printf("\t\"-S\" : number of samples for estimating the frozen positions (unsigned int OPTIONAL : DEFAULT=100)\n");
 				printf("\t\"-N\" : number of codes to test (unsigned int OPTIONAL : DEFAULT=100)\n");
-				printf("\t\"-R\" : number of random words to decode for each distortion computation (unsigned int OPTIONAL : DEFAULT=100)Ón");
+				printf("\t\"-R\" : number of random words to decode for each distortion computation (unsigned int OPTIONAL : DEFAULT=100)\n");
 				return 2;
 				break;
 			default :
